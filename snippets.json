@@ -1,0 +1,24 @@
+{
+  "Criar Componente": {
+    "prefix": "c",
+    "body": [
+      "interface ComponenteProps {}",
+      "",
+      "export function Componente({}: ComponenteProps) {",
+      "  return <div></div>;",
+      "}"
+    ]
+  },
+  "Criar Página": {
+    "prefix": "p",
+    "body": ["export default function Page() {", "  return <div></div>", "}"]
+  },
+  "Criar Layout": {
+    "prefix": "l",
+    "body": [
+      "export default function Layout({ children }: { children: React.ReactNode }) {",
+      "  return <div>{children}</div>",
+      "}"
+    ]
+  }
+}
